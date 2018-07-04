@@ -16,13 +16,13 @@ The token is based on a seed which is updated once per hour and on the text that
 ## Install
 
 ```
-npm install --save google-translate-token
+npm install --save china-google-translate-token
 ```
 
 ## Usage
 
 ``` js
-const token = require('google-translate-token');
+const token = require('china-google-translate-token');
 
 token.get('Hello').then(console.log);
 //=> { name: 'tk', value: '159402.284291' }
@@ -30,4 +30,4 @@ token.get('Hello').then(console.log);
 
 ## Related
 
-- [`google-translate-api`](https://github.com/matheuss/google-translate-api) – A **free** and **unlimited** API for Google Translate :dollar::no_entry_sign:
+- [`google-cn-translate-api`](https://github.com/lingyv/google-cn-translate-api) – A **free** and **unlimited** API for Google Translate :dollar::no_entry_sign:
